@@ -7,15 +7,19 @@
     <meta name="description" content=" ">
     <title>THE COOL KIDS</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    
+
 </head>
 <body>
 <style type="text/css">
-    .img{
-        max-width:60%;
-        height: auto;
 
+
+
+    img{
+        max-width: 100%;
+        height: auto !important;
     }
+    .video-container{position:relative;padding-bottom:56.25%;padding-top:30px;height:auto !important;overflow:hidden; width:100%}
+    .video-container iframe,.video-container object,.video-container embed{position:absolute;top:0;left:0;width:100%;height:90%;  }
 </style>
 <header>
     <div class="collapse" id="navbarToggleExternalContent">
@@ -24,8 +28,8 @@
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
                         <h4 class="text-white">WHAT IS THE COOL KIDS?</h4>
-                        <p class="text-muted">Yeni Cho & Solsow의 workshop의 노래의 원작자인</p>
-                        <p class="text-muted">The cool kids에서 따왔다.</p>
+                        <p class="text-muted">Yeni Cho & Solsow double workshop을 기념해</p>
+                        <p class="text-muted">workshop 노래의 원작자인 The cool kids에서 따왔다.</p>
                     </div>
                     <div class="col-sm-1 offset-md-1 py-4">
                         <h4 class="text-white">Contact</h4>
@@ -45,11 +49,15 @@
             </a>
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" data-toggle="modal" data-target="#ORDER">Product <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#lookbook">Lookbook</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#information">information</a>
+                    <a class="nav-link" data-toggle="modal" data-target="#ORDER">Price <span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#information">Information</a>
+                </li>
+
 
             </ul>
 
@@ -63,8 +71,15 @@
     </div>
 </header>
 
-
 <section class="jumbotron text-center">
+
+    <div class="video-container">
+
+        <iframe  src="https://www.youtube.com/embed/PC_3IvsL2pM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    </div>
+</section>
+<section class="jumbotron text-center" id="lookbook">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -73,13 +88,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image/yeni_cho.JPG"   alt="..." height="650" width="650" >
+                <img src="image/yeni_cho.JPG"   alt="..."  >
             </div>
             <div class="carousel-item">
-                <img src="image/YENICHO1.JPG"   alt="..." height="650" width="650">
+                <img src="image/YENICHO1.JPG"   alt="..." >
             </div>
             <div class="carousel-item">
-                <img src="image/YENICHO3.JPG"   alt="..." height="650" width="650">
+                <img src="image/YENICHO3.JPG"   alt="..." >
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -93,13 +108,7 @@
     </div>
 </section>
 
-<section class="py-5">
-   
-    <p align="middle">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/PC_3IvsL2pM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </p>
-    
-</section>
+
 
 <footer id="information" style="background-color: #000000; color: #ffffff">
     <div class="container">
